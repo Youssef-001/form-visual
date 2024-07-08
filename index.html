@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="cover">
@@ -13,48 +14,57 @@
     
         <div class="credit">Photo by <a>Halie West </a> on <a>Unsplash</a></div>
     </div>
-
+    <div class="main-div">
     <div class="description">
-
+        <p>
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+            <br><br>
+            You know you want to.
+        </p>
     </div>
-    <div class="form-div">
-    <form action="submit" method="post">
-        <h3 class="motiv"></h3>
-        <div class="first-name">
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name">
-        </div>
+    
+    
+    <div class="form-section">
+        <div class="form-div">
+            <h3 class="motiv">
+                Let's do this!
+            </h3>
+        <div class="form-content">
+            <form action="submit" method="post">
 
-        <div class="last-name">
-            <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name">
+                <div class="first-name">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name">
+                </div>
+                <div class="last-name">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name">
+                </div>
+                <div class="email">
+                    <label for="e-mail">EMAIL</label>
+                    <input type="email" name="mail" id="e-mail">
+                </div>
+                <div class="phone">
+                    <label for="number">PHONE NUMBER</label>
+                    <input type="tel" id="number">
+                </div>
+                <div class="password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="confirm-password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
         </div>
-
-        <div class="email">
-            <label for="e-mail">EMAIL</label>
-            <input type="email" name="mail" id="e-mail">
-        </div>
-
-        <div class="phone">
-            <label for="number">PHONE NUMBER</label>
-            <input type="tel" id="number">
-        </div>
-
-        <div class="password">
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password">
-        </div>
-
-        <div class="confirm-password">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm-password" id="confirm-password">
-        </div>
+    </div>
 
         <button type="submit" class="sub">Create Account</button>
 
         <div class="log-in">Already have an account? <a>Log in</a></div>
     </form>
-</div>
+</div></div>
 
 </body>
 </html>
